@@ -73,7 +73,7 @@ class Hangman:
 
 	# Método Construtor
      def __init__(self):
-          self.listaPalavras = ["bianca", "morango", "yourlove", "pitoco", "lucas"]               
+          self.listaPalavras = ["banana", "morango", "kiwi", "pera", "abacate"]               
           self.palavra = random.choice(self.listaPalavras)               
           self.chances = 6
           self.erradas = []
